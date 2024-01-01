@@ -69,7 +69,7 @@ function Post(props) {
   return (
     <div  style={districtStyle}>
       <h3>Title: {props.title}</h3>
-      <p>post: {props.body}</p>
+      <p>Body: {props.body}</p>
     </div>
   )
 }
